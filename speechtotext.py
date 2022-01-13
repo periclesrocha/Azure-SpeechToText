@@ -13,7 +13,8 @@ def runSpeechToText(inputFile, outputFile):
 
     speech_config = speechsdk.SpeechConfig(subscription=speech_key, region=service_region)
     audio_config = speechsdk.audio.AudioConfig(filename=audioFile)
-    speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, language="pt-BR", audio_config=audio_config)
+    # Change the 'language' parameter to your desired language 
+    speech_recognizer = speechsdk.SpeechRecognizer(speech_config=speech_config, language="en-US", audio_config=audio_config)
 
     done = False
 
