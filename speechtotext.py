@@ -1,5 +1,8 @@
-# conda create --name AzureSpeechToText python=3.8
-# C:\Users\procha\Anaconda3\envs\AzureSpeechToText\Scripts\pip.exe install azure-cognitiveservices-speech
+# Dependencies: 
+# -- Python 3.8
+# -- Azure Cognitive Services Speech library
+#        pip.exe install azure-cognitiveservices-speech
+
 import azure.cognitiveservices.speech as speechsdk
 import os
 import sys
