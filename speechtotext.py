@@ -6,8 +6,7 @@ import sys
 import time
 
 # Replace with your own subscription key and service region (e.g., "westus").
-speech_key, service_region = "5d2d90da4e684af1905473f1949b8b84", "eastus"
-#speech_key, service_region = '<key>', '<region>'
+speech_key, service_region = '<key>', '<region>'
 
 def runSpeechToText(inputFile, outputFile):
     audioFile = inputFile
