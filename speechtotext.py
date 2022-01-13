@@ -54,7 +54,7 @@ def runSpeechToText(inputFile, outputFile):
     speech_recognizer.stop_continuous_recognition()
     # </SpeechContinuousRecognitionWithFile>
 
-if (len(sys.argv)) > 2: # If parameters passed, see if it is accepted
+if (len(sys.argv)) > 2: # parameters passed
     print(len(sys.argv))
     inputFile = sys.argv[1].lower()
     outputFile = sys.argv[2].lower()
